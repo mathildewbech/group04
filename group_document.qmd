@@ -1,0 +1,58 @@
+---
+title: "Group Document"
+format: html
+editor: visual
+---
+
+## Mathilde
+
+Hellooooo :)))))
+
+## Laila
+
+### New feature
+
+Hello hello good bye good bye
+
+```{r}
+
+a <- 1
+
+print(a*2)
+
+```
+
+
+## Konrad
+
+Hello there
+
+```{r}
+print("Hello world")
+```
+
+```{r}
+2 + 2
+```
+
+## nice
+
+## New Feature added 
+
+This is our first groupwork using Git :)
+
+```{r}
+library(tidyverse)
+```
+
+# New analysis
+
+test
+
+-12
+
+-13
+
+```{r}
+a <- 2+2*3/7
+```
