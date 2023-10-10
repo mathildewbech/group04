@@ -25,3 +25,15 @@ print("Hello world")
 ```
 
 ## nice
+
+# New analysis
+
+test
+
+-12
+
+-13
+
+```{r}
+a <- 2+2*3/7
+```
