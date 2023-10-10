@@ -10,7 +10,7 @@ editor: visual
 
 ## Look at the data in PC coordinates 1
 
-## Look at the data in PC coordinates 2 
+## Look at the data in PC coordinates 2
 
 Afterward, we visualize the rotation matrix. This matrix can be found in pca_fit\$rotation, but in this step, we will extract it using the "tidy()" function from the broom package. When working with prcomp objects, the "tidy()" function requires an extra argument called "matrix," which we specify as "rotation" to retrieve the rotation matrix.
 
