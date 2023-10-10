@@ -10,6 +10,46 @@ editor: visual
 
 ## Look at the data in PC coordinates 1
 
-## Look at the data in PC coordinates 2
+## Look at the data in PC coordinates 2 
+
+Afterward, we visualize the rotation matrix. This matrix can be found in pca_fit\$rotation, but in this step, we will extract it using the "tidy()" function from the broom package. When working with prcomp objects, the "tidy()" function requires an extra argument called "matrix," which we specify as "rotation" to retrieve the rotation matrix.
+
+```{r}
+pca_fit %>%
+  tidy(matrix = "rotation")
+```
+
+Making a nice-looking plot
+
+```{r}
+arrow_style <- arrow(
+  angle = 20, 
+  ends = "first", 
+  type = "closed", 
+  length = grid::unit(8, "pt")
+)
+
+# plot rotation matrix
+pca_fit %>%
+  tidy(matrix = "rotation") %>%
+  pivot_wider(names_from = "PC",
+              names_prefix = "PC",
+              values_from = "value") %>%
+  
+  ggplot(aes(PC1, PC2)) +
+  geom_segment(xend = 0,
+               yend = 0, 
+               arrow = arrow_style) +
+  geom_text(
+    aes(label = column),
+    hjust = 1,
+    nudge_x = -0.02, 
+    color = "#bf8bff"
+  ) +
+  xlim(-1.25, .5) + 
+  ylim(-.5, 1) +
+  coord_fixed() + # fixing ratio
+  theme_minimal_grid(12)
+```
 
 ## Look at the variance explained by each PC
