@@ -1,0 +1,15 @@
+---
+title: "Lab07 Handin"
+format: html
+editor: visual
+---
+
+## PCA tidyverse style - Code Along
+
+### Libraries
+
+## Look at the data in PC coordinates 1
+
+## Look at the data in PC coordinates 2
+
+## Look at the variance explained by each PC
