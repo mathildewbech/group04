@@ -10,7 +10,18 @@ Hellooooo :)))))
 
 ## Laila
 
-hello
+### New feature
+
+Hello hello good bye good bye
+
+```{r}
+
+a <- 1
+
+print(a*2)
+
+```
+
 
 ## Konrad
 
