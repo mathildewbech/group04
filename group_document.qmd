@@ -22,7 +22,6 @@ print(a*2)
 
 ```
 
-
 ## Konrad
 
 Hello there
@@ -37,7 +36,13 @@ print("Hello world")
 
 ## nice
 
-## New Feature added 
+## Ksenia
+
+```{r}
+print ("Wonderful!")
+```
+
+## New Feature added
 
 This is our first groupwork using Git :)
 
