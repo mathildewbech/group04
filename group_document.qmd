@@ -42,6 +42,8 @@ print("Hello world")
 print ("Wonderful!")
 ```
 
+Just text
+
 ## New Feature added
 
 This is our first groupwork using Git :)
