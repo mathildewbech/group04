@@ -26,6 +26,14 @@ print("Hello world")
 
 ## nice
 
+## New Feature added 
+
+This is our first groupwork using Git :)
+
+```{r}
+library(tidyverse)
+```
+
 # New analysis
 
 test
