@@ -13,3 +13,15 @@ Hellooooo :)))))
 hello
 
 ## Konrad
+
+Hello there
+
+```{r}
+print("Hello world")
+```
+
+```{r}
+2 + 2
+```
+
+## nice
